@@ -20,3 +20,15 @@ function one(){
 one();
 
 // read about closures in js
+// also read about lexical scope in js
+// also read about IIFE
+
+(function chai (){
+    console.log(`DB connected`);
+    
+}());
+
+( (name)=>{
+    console.log(`another Way to write IIFE ${name}`);
+    
+} )("harshit the great coder")
