@@ -1,0 +1,97 @@
+/* Reset and base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#wrapper {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  color: #ffcc70;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #e0e0e0;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+input[type="text"] {
+  padding: 10px 15px;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  background-color: #2e2e2e;
+  color: #fff;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+input[type="text"]:focus {
+  background-color: #3b3b3b;
+  box-shadow: 0 0 5px #ffcc70;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #ffcc70;
+  color: #000;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #e6b44f;
+}
+
+.resultParas {
+  margin-top: 25px;
+}
+
+span.guesses,
+span.lastResult,
+.lowOrHi {
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: inline-block;
+  margin-top: 8px;
+}
+ 
